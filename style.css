@@ -1,0 +1,32 @@
+body{
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items:flex-start;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color:black;
+    padding-right: 10px;
+}
+#uppersite{
+    position: relative;
+    background-color: white;
+    height: 75px;
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    font-weight: 800;
+}
+#uppersite img{
+    display: flex;
+    padding-left: 15px;
+}
+
